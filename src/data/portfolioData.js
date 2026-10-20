@@ -153,7 +153,8 @@ export const certifications = [
     title: "Build with AI Bootcamp",
     issuer: "Google Developers + H2S",
     year: "2026",
-    certificateUrl: null // Clickable when provided
+    id: "2026H2S09BWAIBLR-P00131",
+    certificateUrl: "/certificates/build_with_ai_bootcamp.png"
   },
   {
     title: "Google Cloud Generative AI Studio",

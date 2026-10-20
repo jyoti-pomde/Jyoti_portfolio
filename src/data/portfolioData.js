@@ -10,6 +10,7 @@ export const personalInfo = {
   email: "jyotipomde2002@gmail.com",
   linkedin: "https://linkedin.com/in/jyotipomde",
   github: "https://github.com/jyoti-pomde",
+  leetcode: "https://leetcode.com/u/Jyoti_Pomde/",
   resumeUrl: "/Jyoti_Pomde_Resume.pdf",
   bio: "Full-Stack Developer with hands-on experience in React.js, JavaScript, Node.js, Express.js, Java, Spring Boot, REST APIs, and modern relational/NoSQL databases. Experienced in frontend development, backend microservices, database operations, and system debugging. Currently working as a Software Engineer at Almatar Software Solutions.",
   stats: [

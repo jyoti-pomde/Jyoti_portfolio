@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Mail, MapPin, Send, CheckCircle, Copy } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "./Icons";
 import confetti from "canvas-confetti";
 import { personalInfo } from "../data/portfolioData";
 
@@ -60,6 +60,16 @@ export default function Contact() {
                 <div className="contact-label">LinkedIn</div>
                 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
                   linkedin.com/in/jyotipomde
+                </a>
+              </div>
+            </div>
+
+            <div className="contact-item">
+              <div className="contact-icon"><LeetcodeIcon size={20} /></div>
+              <div>
+                <div className="contact-label">LeetCode</div>
+                <a href={personalInfo.leetcode} target="_blank" rel="noopener noreferrer">
+                  leetcode.com/u/Jyoti_Pomde
                 </a>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ArrowRight, FileText, Mail, MapPin } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "./Icons";
 import { personalInfo } from "../data/portfolioData";
 
 export default function Hero({ onOpenResume }) {
@@ -74,6 +74,15 @@ export default function Hero({ onOpenResume }) {
             title="GitHub"
           >
             <GithubIcon size={20} />
+          </a>
+          <a
+            href={personalInfo.leetcode}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+            title="LeetCode Profile"
+          >
+            <LeetcodeIcon size={20} />
           </a>
           <a
             href={personalInfo.linkedin}

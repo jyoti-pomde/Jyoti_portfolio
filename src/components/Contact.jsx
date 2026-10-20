@@ -29,7 +29,7 @@ export default function Contact() {
     <section id="contact" className="section-container">
       <div className="section-header">
         <h2 className="section-title">Get In Touch</h2>
-        <p className="section-subtitle">Interested in collaborating or discussing full-stack software opportunities? Let's connect.</p>
+        <p className="section-subtitle">Interested in collaborating or discussing software engineering opportunities? Let's connect.</p>
       </div>
 
       <div className="contact-grid">

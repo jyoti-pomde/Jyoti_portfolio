@@ -17,7 +17,7 @@ export default function Footer() {
             <span className="footer-name">{personalInfo.name}</span>
           </div>
           <p className="footer-tagline">
-            Building scalable backend services and responsive full-stack web applications.
+            Building scalable backend services and responsive modern web applications.
           </p>
         </div>
 

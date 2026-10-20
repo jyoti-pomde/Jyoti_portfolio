@@ -16,7 +16,7 @@ export default function Projects() {
     <section id="projects" className="section-container">
       <div className="section-header">
         <h2 className="section-title">Featured Projects</h2>
-        <p className="section-subtitle">Production-grade applications and systems demonstrating full-stack engineering proficiency.</p>
+        <p className="section-subtitle">Production-grade applications and systems demonstrating software engineering proficiency.</p>
       </div>
 
       {/* Filter Tabs */}

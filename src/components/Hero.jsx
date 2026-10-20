@@ -1,35 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { ArrowRight, FileText, Mail, MapPin } from "lucide-react";
 import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "./Icons";
 import { personalInfo } from "../data/portfolioData";
 
 export default function Hero({ onOpenResume }) {
-  const [roleIndex, setRoleIndex] = useState(0);
-  const [displayText, setDisplayText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
-
-  useEffect(() => {
-    const currentRole = personalInfo.roles[roleIndex];
-    const updateSpeed = isDeleting ? 40 : 80;
-
-    const timer = setTimeout(() => {
-      if (!isDeleting) {
-        setDisplayText(currentRole.substring(0, displayText.length + 1));
-        if (displayText.length + 1 === currentRole.length) {
-          setTimeout(() => setIsDeleting(true), 1500);
-        }
-      } else {
-        setDisplayText(currentRole.substring(0, displayText.length - 1));
-        if (displayText.length === 0) {
-          setIsDeleting(false);
-          setRoleIndex((prev) => (prev + 1) % personalInfo.roles.length);
-        }
-      }
-    }, updateSpeed);
-
-    return () => clearTimeout(timer);
-  }, [displayText, isDeleting, roleIndex]);
-
   return (
     <section id="home" className="hero-section">
       <div className="hero-glow hero-glow-1"></div>
@@ -46,12 +20,8 @@ export default function Hero({ onOpenResume }) {
         </h1>
 
         <div className="hero-role-wrapper">
-          <span className="role-prefix">I am a </span>
-          <span className="dynamic-role">{displayText}</span>
-          <span className="cursor">|</span>
+          <span className="dynamic-role">I am a Software Engineer</span>
         </div>
-
-        <p className="hero-description">{personalInfo.bio}</p>
 
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary">

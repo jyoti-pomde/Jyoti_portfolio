@@ -31,7 +31,7 @@ export default function About() {
         <div className="about-card main-about">
           <h3>Engineering Philosophy</h3>
           <p>
-            I am a full-stack engineer driven by a passion for solving complex software challenges. Currently at <strong>Almatar Software Solutions</strong>, I focus on analyzing and troubleshooting high-volume web service workflows, investigating integration bottlenecks, and ensuring high-availability performance across environments.
+            I am a software engineer driven by a passion for solving complex software challenges. Currently at <strong>Almatar Software Solutions</strong>, I focus on analyzing and troubleshooting high-volume web service workflows, investigating integration bottlenecks, and ensuring high-availability performance across environments.
           </p>
           <p style={{ marginTop: "14px" }}>
             My foundation spans both <strong>Java/Spring Boot enterprise backends</strong> and <strong>React.js dynamic client interfaces</strong>. I value writing maintainable, well-tested code, following Agile/SDLC best practices, and building software that delivers genuine business value.

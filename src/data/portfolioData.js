@@ -1,10 +1,7 @@
 export const personalInfo = {
   name: "Jyoti Pomde",
   roles: [
-    "Software Engineer",
-    "Java Developer",
-    "Full Stack Developer",
-    "React Developer"
+    "Software Engineer"
   ],
   location: "Bengaluru, India",
   email: "jyotipomde2002@gmail.com",
@@ -12,12 +9,12 @@ export const personalInfo = {
   github: "https://github.com/jyoti-pomde",
   leetcode: "https://leetcode.com/u/Jyoti_Pomde/",
   resumeUrl: "/Jyoti_Pomde_Resume.pdf",
-  bio: "Full-Stack Developer with hands-on experience in React.js, JavaScript, Node.js, Express.js, Java, Spring Boot, REST APIs, and modern relational/NoSQL databases. Experienced in frontend development, backend microservices, database operations, and system debugging. Currently working as a Software Engineer at Almatar Software Solutions.",
+  bio: "Software Engineer experienced in building scalable applications, designing RESTful APIs, and solving complex technical challenges. Currently working as a Software Engineer at Almatar Software Solutions.",
   stats: [
     { label: "Current Role", value: "Software Engineer" },
     { label: "Company", value: "Almatar" },
     { label: "MCA CGPA", value: "8.5 / 10" },
-    { label: "Core Stack", value: "Java & React" }
+    { label: "Location", value: "Bengaluru, India" }
   ]
 };
 
@@ -137,7 +134,7 @@ export const education = [
     location: "Karnataka, India",
     period: "2023 – 2025",
     grade: "CGPA: 8.5",
-    description: "Advanced studies in software engineering, distributed systems, algorithms, and full-stack enterprise application development."
+    description: "Advanced studies in software engineering, distributed systems, algorithms, and enterprise application development."
   },
   {
     degree: "Bachelor of Science in Computer Science (B.Sc Computer Science)",

@@ -1049,6 +1049,28 @@
   flex-shrink: 0;
 }
 
+.cert-badge-coursework {
+  font-size: 12px;
+  color: #94A3B8;
+  background: rgba(148, 163, 184, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.cert-id-badge {
+  display: inline-block;
+  margin-left: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-indigo);
+  background: rgba(99, 102, 241, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
 /* Contact Section */
 .contact-grid {
   display: grid;

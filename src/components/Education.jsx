@@ -48,7 +48,10 @@ export default function Education() {
               <div key={idx} className="cert-card">
                 <div className="cert-info">
                   <h4>{cert.title}</h4>
-                  <div className="cert-issuer">{cert.issuer} • {cert.year}</div>
+                  <div className="cert-issuer">
+                    {cert.issuer} • {cert.year}
+                    {cert.id && <span className="cert-id-badge">ID: {cert.id}</span>}
+                  </div>
                 </div>
 
                 {cert.certificateUrl ? (
@@ -62,7 +65,7 @@ export default function Education() {
                     <ExternalLink size={14} />
                   </a>
                 ) : (
-                  <span className="cert-badge-verified">Verified Credential</span>
+                  <span className="cert-badge-coursework">Coursework Completed</span>
                 )}
               </div>
             ))}

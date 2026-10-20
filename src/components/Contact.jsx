@@ -19,6 +19,14 @@ export default function Contact() {
     e.preventDefault();
     setSubmitted(true);
     confetti({ particleCount: 80, spread: 60, origin: { y: 0.7 } });
+
+    // Open mail client with pre-filled message
+    const subject = encodeURIComponent(formData.subject || "Software Engineer Opportunity");
+    const body = encodeURIComponent(
+      `Hi Jyoti,\n\n${formData.message}\n\nBest regards,\n${formData.name} (${formData.email})`
+    );
+    window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
+
     setTimeout(() => {
       setFormData({ name: "", email: "", subject: "", message: "" });
       setSubmitted(false);
@@ -101,7 +109,7 @@ export default function Contact() {
             <div className="form-success">
               <CheckCircle size={40} color="#10B981" />
               <h4>Thank you for reaching out!</h4>
-              <p>Your message has been captured. I will get back to you shortly.</p>
+              <p>Your email client has been opened. I look forward to connecting with you.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="contact-form">

@@ -81,15 +81,6 @@ export const skillsData = {
 
 export const projects = [
   {
-    id: "bistro-buddy",
-    title: "Bistro Buddy - Food Ordering System",
-    category: "Full Stack",
-    description: "Restaurant ordering web application built using Spring Boot, React.js, and MySQL. Implemented REST APIs for menu browsing, table booking, and order workflows with role-based access for users and admins.",
-    technologies: ["React.js", "Spring Boot", "MySQL", "REST APIs", "JWT"],
-    githubUrl: "https://github.com/jyoti-pomde/Bistro_buddy-Food-ordering-application",
-    featured: true
-  },
-  {
     id: "event-seat-booking",
     title: "Event Seating & Reservation Engine",
     category: "Full Stack",
@@ -108,13 +99,13 @@ export const projects = [
     featured: true
   },
   {
-    id: "resume-builder",
-    title: "Full-Stack Resume Builder",
+    id: "bistro-buddy",
+    title: "Bistro Buddy - Food Ordering System",
     category: "Full Stack",
-    description: "Web application for creating and customizing resumes with secure JWT authentication, modular profile forms, and persistent backend database integration.",
-    technologies: ["React.js", "Node.js", "Express.js", "MySQL", "JWT"],
-    githubUrl: "https://github.com/jyoti-pomde/Resume_Builder",
-    featured: false
+    description: "Restaurant ordering web application built using Spring Boot, React.js, and MySQL. Implemented REST APIs for menu browsing, table booking, and order workflows with role-based access for users and admins.",
+    technologies: ["React.js", "Spring Boot", "MySQL", "REST APIs", "JWT"],
+    githubUrl: "https://github.com/jyoti-pomde/Bistro_buddy-Food-ordering-application",
+    featured: true
   },
   {
     id: "expense-tracker",
@@ -123,6 +114,15 @@ export const projects = [
     description: "Financial management dashboard with browser-based transaction tracking, category budgets, visual analytics via Chart.js, theme switching, and PDF report exports.",
     technologies: ["JavaScript", "HTML5", "CSS3", "Chart.js"],
     githubUrl: "https://github.com/jyoti-pomde/Expense_Tracker",
+    featured: false
+  },
+  {
+    id: "resume-builder",
+    title: "Full-Stack Resume Builder",
+    category: "Full Stack",
+    description: "Web application for creating and customizing resumes with secure JWT authentication, modular profile forms, and persistent backend database integration.",
+    technologies: ["React.js", "Node.js", "Express.js", "MySQL", "JWT"],
+    githubUrl: "https://github.com/jyoti-pomde/Resume_Builder",
     featured: false
   }
 ];
@@ -155,16 +155,16 @@ export const certifications = [
     certificateUrl: "/certificates/build_with_ai_bootcamp.png"
   },
   {
-    title: "Google Cloud Generative AI Studio",
-    issuer: "Google Cloud",
-    year: "2026",
-    certificateUrl: null
-  },
-  {
     title: "Deloitte Data Analytics Job Simulation",
     issuer: "Deloitte (Forage)",
     year: "2025",
     id: "cvYzW8mry5qG5zGFM",
     certificateUrl: "/certificates/deloitte_data_analytics.png"
+  },
+  {
+    title: "Google Cloud Generative AI Studio",
+    issuer: "Google Cloud",
+    year: "2026",
+    certificateUrl: null
   }
 ];

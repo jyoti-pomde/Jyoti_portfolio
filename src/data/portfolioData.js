@@ -163,9 +163,10 @@ export const certifications = [
     certificateUrl: null
   },
   {
-    title: "Deloitte Data Analyst Job Simulation",
-    issuer: "Deloitte",
-    year: "2026",
-    certificateUrl: null
+    title: "Deloitte Data Analytics Job Simulation",
+    issuer: "Deloitte (Forage)",
+    year: "2025",
+    id: "cvYzW8mry5qG5zGFM",
+    certificateUrl: "/certificates/deloitte_data_analytics.png"
   }
 ];
